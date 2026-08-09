@@ -3,7 +3,7 @@ import dotenv from 'dotenv';
 import cors from 'cors';
 import { clerkMiddleware } from '@clerk/express';
 import { serve } from "inngest/express";
-import { inngest, functions } from "./inngest/setup.js";
+import { inngest, functions } from "./inngest/index.js";
 
 dotenv.config();
 
